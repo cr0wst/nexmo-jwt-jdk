@@ -1,7 +1,5 @@
 name: Java CI
-
 on: [push]
-
 jobs:
   test:
     name: Test on Java ${{ matrix.java_version }}
